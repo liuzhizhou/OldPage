@@ -1,6 +1,6 @@
 # Welcome to Liu.ZZ's Personal Page
 
-I am now an undergraduate student in [Southern University of Science and Technology (SUSTech)](sustech.edu.cn) in China, major in Mathematics. I have typed some of my study experience as notes in LaTeX. Hope they might help some of the people in the world.
+I am now an undergraduate student in [Southern University of Science and Technology (SUSTech)](sustech.edu.cn) in China, major in Mathematics. I have typed some of my study experience as notes in $\LaTeX$. Hope they might help some of the people in the world.
 
 
 

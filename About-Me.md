@@ -25,6 +25,11 @@ titles:
   fr-FR   : *FR
   fr-LU   : *FR
   # @end locale config
+toc: true
+article_header:
+  type: cover
+  image:
+    src: /my_pic.JPG
 key: page-about
 ---
 

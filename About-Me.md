@@ -1,7 +1,7 @@
 ---
 
-
 layout: article
+title: About Me
 titles:
   # @start locale config
   en      : &EN       About Me
@@ -27,6 +27,8 @@ titles:
   # @end locale config
 key: page-about
 ---
+
+
 
 # Introduction
 

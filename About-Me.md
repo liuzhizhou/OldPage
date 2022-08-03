@@ -28,8 +28,10 @@ titles:
 key: page-about
 ---
 
+[toc]
 
+## Introduction
 
-# Introduction
+My name is Zhizhou (之洲) Liu (刘). I am now studying in Southern University of Science and Technology in Shenzhen, China. I am major in Mathematics, interested in many fields of it. I am also interested in *Quant*, having an internship in [Meridian investment company](https://www.meridianglobal.com.cn/main/init) now.
 
-My name is Zhizhou (之洲) Liu (刘). I am now studying in Southern University of Science and Technology in Shenzhen, China. I am major in Mathematics, interested in many fields of it. I am also interested in *quant*, having an internship in [Meridian investment company](https://www.meridianglobal.com.cn/main/init) now.
+##

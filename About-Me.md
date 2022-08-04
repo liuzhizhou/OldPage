@@ -25,7 +25,9 @@ titles:
   fr-FR   : *FR
   fr-LU   : *FR
   # @end locale config
-toc: true
+license: false
+aside:
+  toc: true
 article_header:
   type: cover
   image:

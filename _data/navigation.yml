@@ -50,16 +50,6 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /About-Me.html
-- titles:
-      # @start locale config
-      en      : &EN       Course Notes
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  课程笔记
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      # @end locale config
+    
+- title: Course Notes
     url: /course-notes.html

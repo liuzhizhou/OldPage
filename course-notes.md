@@ -1,4 +1,5 @@
 ---
+layout: article
 title: Mathematics Courses Notes
 ---
 

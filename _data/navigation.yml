@@ -50,6 +50,6 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /About-Me.html
-    
-- title: Course Notes
-    url: /course-notes.html
+
+# - title: Course Notes
+#    url: /course-notes.html

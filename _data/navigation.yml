@@ -49,7 +49,7 @@ header:
       fr-LU   : *FR
       tr      : &TR       Hakkında
       # @end locale config
-    url: /About-Me.html
+    url: /About-Me
 
-# - title: Course Notes
-#    url: /course-notes.html
+  - title: Course Notes
+    url: /course-notes

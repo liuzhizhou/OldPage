@@ -106,7 +106,7 @@ The following definitions are equivalent:
 
 2. If for any $\epsilon>0$, there exists an open set $U$ with $E\subset U$ such that $\mu^*(U-E)\leq \epsilon$, then we say that $E$ is measurable.
 
-3.If for any subset $A$, we have
+3. If for any subset $A$, we have
 $$
     \mu^*(A) = \mu^*(A\cap E)+\mu^*(A\cap E^c),
 $$

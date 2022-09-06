@@ -102,7 +102,7 @@ The definition of Lebesgue measure fixed the problem. There are many equivalent 
 **Proposition 2**(equivalent definitions of measurable)
 The following definitions are equivalent:
 
-1. Suppose $\mu_*(E)=\sup\{\mu^*(A): A\subseteq E\}$, where $A$ is closed, which is called the *(Lebesgue) outer measure* of $E$. If $\mu^*(E)=\mu_*(E)$, then we say that $E$ is measurable.
+1. Suppose $$\mu_*(E)=\sup \{\mu^*(A): A\subseteq E \} $$, where $A$ is closed, which is called the *(Lebesgue) outer measure* of $E$. If $$\mu^*(E)=\mu_*(E)$$, then we say that $E$ is measurable.
 
 2. If for any $\epsilon>0$, there exists an open set $U$ with $E\subset U$ such that $\mu^*(U-E)\leq \epsilon$, then we say that $E$ is measurable.
 

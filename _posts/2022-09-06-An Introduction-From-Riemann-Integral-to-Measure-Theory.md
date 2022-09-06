@@ -1,5 +1,5 @@
 ---
-title: An Introduction: From Riemann Integral to Measure Theory
+title: An Introduction From Riemann Integral to Measure Theory
 tags: measure-theory
 article_header:
   type: cover

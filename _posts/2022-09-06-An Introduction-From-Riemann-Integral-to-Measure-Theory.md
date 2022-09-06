@@ -7,6 +7,9 @@ article_header:
     src: https://raw.githubusercontent.com/liuzhizhou/liuzhizhou.github.io/gh-pages/screenshots/Riem-Leb.jpg
 ---
 
+*NOTE*: This passage is selected from my lecture notes of Measure Theory. I would update the whole notes when the course is completed.
+
+
 ## Riemann Integral
 
 A viewpoint of understanding Riemann Integral is considering the upper sum and lower sum, namely

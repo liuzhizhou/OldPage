@@ -1,10 +1,10 @@
 ---
-title: An Introduction: From Riemann Integral to Measure Theory
+title: An-Introduction:-From-Riemann-Integral-to-Measure-Theory
 tags: measure-theory
 article_header:
   type: cover
   image:
-    src: https://github.com/liuzhizhou/liuzhizhou.github.io/blob/gh-pages/screenshots/Riem-Leb.jpg
+    src: https://raw.githubusercontent.com/liuzhizhou/liuzhizhou.github.io/gh-pages/screenshots/Riem-Leb.jpg
 ---
 
 ## Riemann Integral
@@ -43,7 +43,7 @@ D(x)\triangleq \begin{cases}
 \end{cases}.
 $$
 It is not Riemann integrable since the upper integral equals $b-a$ yet the lower integral equals zero.
-2. If $0\leq f_1\leq f_2\leq \dots$ and $f_i$ is Riemann integrable for each $i\in \N$. The pointwise convergent of $f_n\to f$ does not grantee that $f$ is Riemann integrable. Indeed, let $\mathbb{Q}=\{r_1,r_2,\dots\}$. Define
+2. If $0\leq f_1\leq f_2\leq \dots$ and $f_i$ is Riemann integrable for each $i\in \mathbb{N}$. The pointwise convergent of $f_n\to f$ does not grantee that $f$ is Riemann integrable. Indeed, let $\mathbb{Q}=\{r_1,r_2,\dots\}$. Define
 $$
 f_n(x)=
 \begin{cases}
@@ -69,7 +69,7 @@ Here comes Lebesgue who defined Lebesgue Integral to fix the above problems.
 
 ## Lebesgue Integral
 
-![Rie-Leb](https://github.com/liuzhizhou/liuzhizhou.github.io/blob/gh-pages/screenshots/Riem-Leb.jpg)
+![Rie-Leb](https://raw.githubusercontent.com/liuzhizhou/liuzhizhou.github.io/gh-pages/screenshots/Riem-Leb.jpg)
 
 Consider an easy case: the domain of $f$ is $[a,b]$. Rather than considering the partition on $[a,b]$ as in Riemann Integral, Lebesgue considered the partial on the range of $f$. The preimage would then be
 $$
@@ -87,7 +87,7 @@ $$
 $$
 Therefore, $U_p(L,f)=L_p(L,f)$ when $\max_i\{y_i-y_{i-1}\}\to 0$. It seems that the integral is well-defined already and all functions are ``Lebesgue Integrable''. However, the issue is: what is $l(E_i)$? How to calculate it?
 
-Since the only knowledge about length is the case of $E_i$ is interval, we have no choice but to do the following definition, which is called \emph{(Lebesgue) outer measure},
+Since the only knowledge about length is the case of $E_i$ is interval, we have no choice but to do the following definition, which is called *(Lebesgue) outer measure*,
 $$
 \mu^* (E)\triangleq \inf\{\sum_{i=1}^\infty |I_i|: E\subset \cup_{i=1}^\infty I_i\}.
 $$
@@ -100,21 +100,24 @@ which does not guarantee Eq. (*) to be true.
 
 The definition of Lebesgue measure fixed the problem. There are many equivalent definitions of Lebesgue measure:
 **Proposition 2**(equivalent definitions of measurable)
-    The following definitions are equivalent:
-        1. Suppose $\mu_*(E)=\sup\{\mu^*(A): A\subseteq E\}$ where $A$ is closed, which is called the \emph{(Lebesgue) outer measure} of $E$. If $\mu^*(E)=\mu_*(E)$, then we say that $E$ is measurable.
-        2. If for any $\epsilon>0$, there exists an open set $U$ with $E\subset U$ such that $\mu^*(U-E)\leq \epsilon$, then we say that $E$ is measurable.
-        3. If for any subset $A$, we have
-        $$
-            \mu^*(A) = \mu^*(A\cap E)+\mu^*(A\cap E^c),
-        $$
-        then we say that $E$ is measurable.
+The following definitions are equivalent:
+
+1. Suppose $\mu_*(E)=\sup\{\mu^*(A): A\subseteq E\}$ where $A$ is closed, which is called the *(Lebesgue) outer measure* of $E$. If $\mu^*(E)=\mu_*(E)$, then we say that $E$ is measurable.
+
+2. If for any $\epsilon>0$, there exists an open set $U$ with $E\subset U$ such that $\mu^*(U-E)\leq \epsilon$, then we say that $E$ is measurable.
+
+3.If for any subset $A$, we have
+$$
+    \mu^*(A) = \mu^*(A\cap E)+\mu^*(A\cap E^c),
+$$
+then we say that $E$ is measurable.
 
 We can show that for every measurable set, 
 $$
 \mu^* (\cup_{i=1}^\infty E_i)\leq \sum_{i=1}^\infty \mu^* (E_i).
 $$
-Then define \emph{measurable function} to be the functions that satisfies $f^{-1}([-\infty,a])$ is measurable for all $a\in \R$. Then the issue explained after Eq. (*) is completely solved.
-
+Then define *measurable function* to be the functions that satisfies $f^{-1}([-\infty,a])$ is measurable for all $a\in \R$. Then the issue explained after Eq. (*) is completely solved.
 
 ## Measure Theory
+
 The result in $\R$ can be easily generalize to the case of $\R^n$, however, how to define measure in abstract spaces, for example,  the $L^2$ space. A Mathematician called Frechet used the same procedure defined the measure in abstract spaces: first define open set, then the measure on those sets, and the outer measure... However, have a second look at the Proposition 2, we find that item 3 does not need any information of open sets! Therefore, the definition of measurable set in abstract space follows.

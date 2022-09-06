@@ -1,5 +1,5 @@
 ---
-title: An-Introduction:-From-Riemann-Integral-to-Measure-Theory
+title: An Introduction: From Riemann Integral to Measure Theory
 tags: measure-theory
 article_header:
   type: cover
@@ -102,7 +102,7 @@ The definition of Lebesgue measure fixed the problem. There are many equivalent 
 **Proposition 2**(equivalent definitions of measurable)
 The following definitions are equivalent:
 
-1. Suppose $\mu_*(E)=\sup\{\mu^*(A): A\subseteq E\}$ where $A$ is closed, which is called the *(Lebesgue) outer measure* of $E$. If $\mu^*(E)=\mu_*(E)$, then we say that $E$ is measurable.
+1. Suppose $\mu_*(E)=\sup\{\mu^*(A): A\subseteq E\}$, where $A$ is closed, which is called the *(Lebesgue) outer measure* of $E$. If $\mu^*(E)=\mu_*(E)$, then we say that $E$ is measurable.
 
 2. If for any $\epsilon>0$, there exists an open set $U$ with $E\subset U$ such that $\mu^*(U-E)\leq \epsilon$, then we say that $E$ is measurable.
 
@@ -116,8 +116,8 @@ We can show that for every measurable set,
 $$
 \mu^* (\cup_{i=1}^\infty E_i)\leq \sum_{i=1}^\infty \mu^* (E_i).
 $$
-Then define *measurable function* to be the functions that satisfies $f^{-1}([-\infty,a])$ is measurable for all $a\in \R$. Then the issue explained after Eq. (*) is completely solved.
+Then define *measurable function* to be the functions that satisfies $f^{-1}([-\infty,a])$ is measurable for all $a\in \mathbb{R}$. Then the issue explained after Eq. (*) is completely solved.
 
 ## Measure Theory
 
-The result in $\R$ can be easily generalize to the case of $\R^n$, however, how to define measure in abstract spaces, for example,  the $L^2$ space. A Mathematician called Frechet used the same procedure defined the measure in abstract spaces: first define open set, then the measure on those sets, and the outer measure... However, have a second look at the Proposition 2, we find that item 3 does not need any information of open sets! Therefore, the definition of measurable set in abstract space follows.
+The result in $\mathbb{R}$ can be easily generalize to the case of $\mathbb{R}^n$, however, how to define measure in abstract spaces, for example,  the $L^2$ space. A Mathematician called Frechet used the same procedure defined the measure in abstract spaces: first define open set, then the measure on those sets, and the outer measure... However, have a second look at the Proposition 2, we find that item 3 does not need any information of open sets! Therefore, the definition of measurable set in abstract space follows.

@@ -4,7 +4,7 @@ tags: measure-theory
 article_header:
   type: cover
   image:
-    src: Riem-Leb.jpg
+    src: https://github.com/liuzhizhou/liuzhizhou.github.io/blob/gh-pages/screenshots/Riem-Leb.jpg
 ---
 
 ## Riemann Integral
@@ -69,7 +69,7 @@ Here comes Lebesgue who defined Lebesgue Integral to fix the above problems.
 
 ## Lebesgue Integral
 
-![Rie-Leb](Riem-Leb.jpg)
+![Rie-Leb](https://github.com/liuzhizhou/liuzhizhou.github.io/blob/gh-pages/screenshots/Riem-Leb.jpg)
 
 Consider an easy case: the domain of $f$ is $[a,b]$. Rather than considering the partition on $[a,b]$ as in Riemann Integral, Lebesgue considered the partial on the range of $f$. The preimage would then be
 $$

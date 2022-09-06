@@ -25,7 +25,7 @@ $$
 \quad
 \underline{\int_a^b} f(x) \mathrm{d} x\triangleq\sup_p L_p(R,f).
 $$
-If the two values above equal, then we say the $f(x)$ is Riemann integrable. There are two import results in Riemann integral.
+If the two values above equal, then we say the $f(x)$ is Riemann integrable. There are two important results in Riemann integral.
 
 **Proposition 1**
     Every continuous real-valued function on each closed bounded interval is Riemann integrable.
